@@ -1,0 +1,2 @@
+# /var/log/cron/cron.log
+*/1 * * * * php composer --version
