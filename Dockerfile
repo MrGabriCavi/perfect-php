@@ -39,4 +39,4 @@ RUN apk add --no-cache \
 WORKDIR /app
 
 # Configure PHP
-COPY config/php/php.ini /etc/php8/conf.d/custom.ini
+COPY config/php/php.ini /etc/php7/conf.d/custom.ini
